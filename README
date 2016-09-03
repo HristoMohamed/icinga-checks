@@ -1,0 +1,12 @@
+Repository with checks for Icinga.
+If not specified all this checks are for Linux hosts.
+
+check_stale
+Takes no arguements.
+Checks for stale NFS mounts. If a mount is completely unaccessible it will itself timeout in 10 seconds.
+
+check_elog.sh
+Requires bash to run. Takes one parameter (bash check_elog.sh HOSTNAME). Requires mounted and accessible for write /tmp 
+
+
+
